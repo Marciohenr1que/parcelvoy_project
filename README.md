@@ -1,5 +1,5 @@
 Projeto Flask - Sistema de Gerenciamento de Leads
-Este projeto é uma API desenvolvida com Flask para gerenciar leads em um sistema de propostas de seguro automotivo. O sistema é estruturado utilizando a arquitetura hexagonal, e inclui funcionalidades para adicionar leads, enviar propostas e agendar lembretes para leads não responsivos.
+Este projeto é uma API desenvolvida com Flask para gerenciar leads em um sistema de propostas de seguro automotivo. O sistema é estruturado utilizando a arquitetura hexagonal, e inclui funcionalidades para adicionar leads, enviar propostas e agendar lembretes para leads não respondidos.
 
 Estrutura do Projeto
 O projeto é organizado da seguinte maneira:
