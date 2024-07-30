@@ -17,7 +17,7 @@ Repositórios (repositories): Responsável pela persistência e recuperação do
 LeadRepository: Gerencia a lista de leads em memória e oferece métodos para salvar e buscar leads.
 Serviços (services): Contém a lógica de negócio do sistema.
 
-LeadService: Fornece métodos para adicionar leads, enviar propostas e agendar lembretes para leads não responsivos.
+LeadService: Fornece métodos para adicionar leads, enviar propostas e agendar lembretes para leads não respondidos.
 Controladores (controllers): Lida com a entrada de dados e interage com os serviços.
 
 LeadController: Define métodos para endpoints da API que permitem enviar propostas e agendar lembretes.
@@ -30,8 +30,6 @@ send_reminder_email: Tarefa para enviar um e-mail de lembrete para o lead.
 Configuração e Execução
 Instale as dependências:
 
-bash
-Copiar código
 pip install -r requirements.txt
 Configure as variáveis de ambiente:
 
@@ -40,6 +38,4 @@ FLASK_ENV: Defina como development
 Configure a URL do broker do Celery e a chave da API do Parcelvoy no arquivo config.py.
 Execute a aplicação:
 
-bash
-Copiar código
 flask run
