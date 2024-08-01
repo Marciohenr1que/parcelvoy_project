@@ -14,4 +14,4 @@ def start_reminder():
 
 @lead_routes.route('/', methods=['GET'])
 def home():
-    return jsonify({'message': 'Olá, essa API foi construída para entrar na empresa https://martechdm.com.'})
+    return jsonify({'message': 'Olá, essa API foi construída para Leads que esfriaram.'})
